@@ -1,7 +1,8 @@
-Motor Insurance Management System
+**Motor Insurance Management System**
+
 A comprehensive Java-based web application for managing motor insurance policies with secure user authentication and policy management features.
 
-Table of Contents
+**Table of Contents**
 Overview
 Features
 Prerequisites
@@ -11,10 +12,11 @@ Configuration
 Security
 API Endpoints
 Database Schema
-Overview
+
+**Overview**
 This Motor Insurance Management System provides a platform for users to register, manage their motor insurance policies, and handle policy renewals. The system includes OTP-based authentication for enhanced security and a comprehensive dashboard for policy management.
 
-Features
+**Features**
 User Authentication (Login/Register) with OTP verification
 Email-based OTP verification
 JWT-based secure authentication
@@ -29,7 +31,8 @@ PostgreSQL 12 or higher
 Maven 3.6 or higher
 SMTP server access for email notifications
 Git (for version control)
-Technology Stack
+
+**Technology Stack**
 Spring Boot 3.2.3
 Spring Security
 Spring Data JPA
@@ -38,7 +41,8 @@ Thymeleaf
 JWT (JSON Web Tokens)
 Lombok
 Maven
-Installation & Setup
+
+**Installation & Setup**
 Clone the Repository
 
 git clone [repository-url]
@@ -59,6 +63,7 @@ Update src/main/resources/application.properties:
 spring.datasource.url=jdbc:postgresql://localhost:5432/motor_insurance
 spring.datasource.username=your_username
 spring.datasource.password=your_password
+
 2. Email Configuration
 Update SMTP settings in application.properties:
 
@@ -68,6 +73,7 @@ spring.mail.username=your_email@gmail.com
 spring.mail.password=your_app_specific_password
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
+
 3. JWT Configuration
 Update JWT settings in application.properties:
 
